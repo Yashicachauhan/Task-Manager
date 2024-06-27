@@ -33,7 +33,6 @@ The server will start on http://localhost:3000.
 **2.Running the Frontend**
 **1.By file**
 Open the index.html
-
 Navigate and open the index.html file in your web browser. 
 
 **2.Using a local server**
