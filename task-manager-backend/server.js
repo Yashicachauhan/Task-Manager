@@ -9,7 +9,9 @@ const PORT = process.env.PORT || 3000;
 
 // Define a route handler for the root URL
 app.get("/", (req, res) => {
-  res.send("Welcome to your Task Management Application");
+  res.send(
+    "Welcome to your Task Management Application \n use (http://localhost:3000/api) for api \n use (http://localhost:3000/api/tasks) for tasks"
+  );
 });
 app.get("/api", (req, res) => {
   res.send("Welcome to API, use (http://localhost:3000/api/tasks) for tasks");
